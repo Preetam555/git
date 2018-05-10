@@ -14,16 +14,16 @@ So let's begin....
 
 GIT...
 
-GIT in short is a small software which is used to perform Version Control. We will be discussing about it in a while, but before moving ahead first just understand what a Version Control is? or Why do we need Version Control?
+GIT in short is a software which is used to perform Version Control. We will be discussing about it in a while, but before moving ahead first just understand what a Version Control is? or Why do we need Version Control?
 
 What is Version Control?
-Version Control System (VCS) is a small software which keeps track of every modification made to the code by each developer. VCS keeps this track of modifications in a special type of database. In Case if some wrong code is written, the developer may roll back his changes and again obtain a stable working version without disturbing the work of other developers. Also the developer may keep track of all the changes made and may eliminate only those which are not required without back tracking to again the stable code version.
+Version Control System (VCS) is a software which keeps track of every modification made to the code by each developer. VCS keeps this track of modifications in a special type of database. In Case if some wrong code is written, the developer may roll back his changes and again obtain a stable working version without disturbing the work of other developers. Also the developer may keep track of all the changes made and may eliminate only those which are not required without back tracking to again the stable code version.
 
 When we have more than one developer working on same software / application, there is a huge possibility of facing difficulties in integrating each others code together and keeping the dependant functionalities intact. These developer keep on modifying the source code frequently while working on different sections of the software / application. Version control protects the source code from error caused while merging two different developers code together and making it again a complete and functional part of the software / Application. It also protects the code from both catastrophe and the casual degradation of human error and unintended consequences.
 
 Version Control System tracks each modification made by each developer and help in preventing concurrent work from being affected. 
 
-Let's take a small example to understand the consequence of not using a Version Control System.
+Let's take an example to understand the consequence of not using a Version Control System.
 
 Consider a developer writes a code and makes new versions of each new code modified naming them as 'latest' or 'new' or 'final'. Again when he has some new code modified he has to rethink another new name for his next version. (Some smart developer may use v1, v2 and so on conventions to keep track of their latest versions). Perhaps developer have commented out code blocks because he want to disable certain functionality without deleting the code, fearing that there may be a use for it later. Version control is a way out of these problems.
 
